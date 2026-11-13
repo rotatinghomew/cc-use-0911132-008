@@ -19,6 +19,10 @@ class AnalysisInputsTests(unittest.TestCase):
         data = self.load_data()
         self.assertTrue(any(row['first_available_at'] > data['queries'][0]['at'] for row in data['designs']))
 
+    def test_judgment_after_query(self):
+        data = self.load_data()
+        self.assertTrue(all(row['available_at'] >= next(query['at'] for query in data['queries'] if query['query_id'] == row['query_id']) for row in data['judgments']))
+
     def test_source_versions_and_cutoff(self):
         data = self.load_data()
         self.assertEqual(data["schema_version"], 1)
