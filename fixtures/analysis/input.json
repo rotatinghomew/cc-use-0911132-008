@@ -1,0 +1,958 @@
+{
+  "schema_version": 1,
+  "as_of": "2026-10-30T00:00:00+00:00",
+  "source_versions": {
+    "operations": "r1",
+    "reference": "r1"
+  },
+  "designs": [
+    {
+      "design_id": "design-0",
+      "family_id": "family-0",
+      "first_available_at": "2026-08-01T00:00:00+00:00",
+      "features": [
+        0.0,
+        0.0,
+        0
+      ]
+    },
+    {
+      "design_id": "design-1",
+      "family_id": "family-0",
+      "first_available_at": "2026-08-02T00:00:00+00:00",
+      "features": [
+        0.25,
+        0.0,
+        1
+      ]
+    },
+    {
+      "design_id": "design-2",
+      "family_id": "family-0",
+      "first_available_at": "2026-08-03T00:00:00+00:00",
+      "features": [
+        0.5,
+        0.0,
+        0
+      ]
+    },
+    {
+      "design_id": "design-3",
+      "family_id": "family-0",
+      "first_available_at": "2026-08-04T00:00:00+00:00",
+      "features": [
+        0.75,
+        0.0,
+        1
+      ]
+    },
+    {
+      "design_id": "design-4",
+      "family_id": "family-1",
+      "first_available_at": "2026-08-05T00:00:00+00:00",
+      "features": [
+        0.0,
+        0.08,
+        0
+      ]
+    },
+    {
+      "design_id": "design-5",
+      "family_id": "family-1",
+      "first_available_at": "2026-08-06T00:00:00+00:00",
+      "features": [
+        0.25,
+        0.08,
+        1
+      ]
+    },
+    {
+      "design_id": "design-6",
+      "family_id": "family-1",
+      "first_available_at": "2026-08-07T00:00:00+00:00",
+      "features": [
+        0.5,
+        0.08,
+        0
+      ]
+    },
+    {
+      "design_id": "design-7",
+      "family_id": "family-1",
+      "first_available_at": "2026-08-08T00:00:00+00:00",
+      "features": [
+        0.75,
+        0.08,
+        1
+      ]
+    },
+    {
+      "design_id": "design-8",
+      "family_id": "family-2",
+      "first_available_at": "2026-08-09T00:00:00+00:00",
+      "features": [
+        0.0,
+        0.17,
+        0
+      ]
+    },
+    {
+      "design_id": "design-9",
+      "family_id": "family-2",
+      "first_available_at": "2026-08-10T00:00:00+00:00",
+      "features": [
+        0.25,
+        0.17,
+        1
+      ]
+    },
+    {
+      "design_id": "design-10",
+      "family_id": "family-2",
+      "first_available_at": "2026-08-11T00:00:00+00:00",
+      "features": [
+        0.5,
+        0.17,
+        0
+      ]
+    },
+    {
+      "design_id": "design-11",
+      "family_id": "family-2",
+      "first_available_at": "2026-08-12T00:00:00+00:00",
+      "features": [
+        0.75,
+        0.17,
+        1
+      ]
+    },
+    {
+      "design_id": "design-12",
+      "family_id": "family-3",
+      "first_available_at": "2026-08-13T00:00:00+00:00",
+      "features": [
+        0.0,
+        0.25,
+        0
+      ]
+    },
+    {
+      "design_id": "design-13",
+      "family_id": "family-3",
+      "first_available_at": "2026-08-14T00:00:00+00:00",
+      "features": [
+        0.25,
+        0.25,
+        1
+      ]
+    },
+    {
+      "design_id": "design-14",
+      "family_id": "family-3",
+      "first_available_at": "2026-08-15T00:00:00+00:00",
+      "features": [
+        0.5,
+        0.25,
+        0
+      ]
+    },
+    {
+      "design_id": "design-15",
+      "family_id": "family-3",
+      "first_available_at": "2026-08-16T00:00:00+00:00",
+      "features": [
+        0.75,
+        0.25,
+        1
+      ]
+    },
+    {
+      "design_id": "design-16",
+      "family_id": "family-4",
+      "first_available_at": "2026-08-17T00:00:00+00:00",
+      "features": [
+        0.0,
+        0.33,
+        0
+      ]
+    },
+    {
+      "design_id": "design-17",
+      "family_id": "family-4",
+      "first_available_at": "2026-08-18T00:00:00+00:00",
+      "features": [
+        0.25,
+        0.33,
+        1
+      ]
+    },
+    {
+      "design_id": "design-18",
+      "family_id": "family-4",
+      "first_available_at": "2026-08-19T00:00:00+00:00",
+      "features": [
+        0.5,
+        0.33,
+        0
+      ]
+    },
+    {
+      "design_id": "design-19",
+      "family_id": "family-4",
+      "first_available_at": "2026-08-20T00:00:00+00:00",
+      "features": [
+        0.75,
+        0.33,
+        1
+      ]
+    },
+    {
+      "design_id": "design-20",
+      "family_id": "family-5",
+      "first_available_at": "2026-08-21T00:00:00+00:00",
+      "features": [
+        0.0,
+        0.42,
+        0
+      ]
+    },
+    {
+      "design_id": "design-21",
+      "family_id": "family-5",
+      "first_available_at": "2026-08-22T00:00:00+00:00",
+      "features": [
+        0.25,
+        0.42,
+        1
+      ]
+    },
+    {
+      "design_id": "design-22",
+      "family_id": "family-5",
+      "first_available_at": "2026-08-23T00:00:00+00:00",
+      "features": [
+        0.5,
+        0.42,
+        0
+      ]
+    },
+    {
+      "design_id": "design-23",
+      "family_id": "family-5",
+      "first_available_at": "2026-08-24T00:00:00+00:00",
+      "features": [
+        0.75,
+        0.42,
+        1
+      ]
+    },
+    {
+      "design_id": "design-24",
+      "family_id": "family-6",
+      "first_available_at": "2026-08-25T00:00:00+00:00",
+      "features": [
+        0.0,
+        0.5,
+        0
+      ]
+    },
+    {
+      "design_id": "design-25",
+      "family_id": "family-6",
+      "first_available_at": "2026-08-26T00:00:00+00:00",
+      "features": [
+        0.25,
+        0.5,
+        1
+      ]
+    },
+    {
+      "design_id": "design-26",
+      "family_id": "family-6",
+      "first_available_at": "2026-08-27T00:00:00+00:00",
+      "features": [
+        0.5,
+        0.5,
+        0
+      ]
+    },
+    {
+      "design_id": "design-27",
+      "family_id": "family-6",
+      "first_available_at": "2026-08-28T00:00:00+00:00",
+      "features": [
+        0.75,
+        0.5,
+        1
+      ]
+    },
+    {
+      "design_id": "design-28",
+      "family_id": "family-7",
+      "first_available_at": "2026-08-29T00:00:00+00:00",
+      "features": [
+        0.0,
+        0.58,
+        0
+      ]
+    },
+    {
+      "design_id": "design-29",
+      "family_id": "family-7",
+      "first_available_at": "2026-08-30T00:00:00+00:00",
+      "features": [
+        0.25,
+        0.58,
+        1
+      ]
+    },
+    {
+      "design_id": "design-30",
+      "family_id": "family-7",
+      "first_available_at": "2026-08-31T00:00:00+00:00",
+      "features": [
+        0.5,
+        0.58,
+        0
+      ]
+    },
+    {
+      "design_id": "design-31",
+      "family_id": "family-7",
+      "first_available_at": "2026-09-01T00:00:00+00:00",
+      "features": [
+        0.75,
+        0.58,
+        1
+      ]
+    },
+    {
+      "design_id": "design-32",
+      "family_id": "family-8",
+      "first_available_at": "2026-09-02T00:00:00+00:00",
+      "features": [
+        0.0,
+        0.67,
+        0
+      ]
+    },
+    {
+      "design_id": "design-33",
+      "family_id": "family-8",
+      "first_available_at": "2026-09-03T00:00:00+00:00",
+      "features": [
+        0.25,
+        0.67,
+        1
+      ]
+    },
+    {
+      "design_id": "design-34",
+      "family_id": "family-8",
+      "first_available_at": "2026-09-04T00:00:00+00:00",
+      "features": [
+        0.5,
+        0.67,
+        0
+      ]
+    },
+    {
+      "design_id": "design-35",
+      "family_id": "family-8",
+      "first_available_at": "2026-09-05T00:00:00+00:00",
+      "features": [
+        0.75,
+        0.67,
+        1
+      ]
+    },
+    {
+      "design_id": "design-36",
+      "family_id": "family-9",
+      "first_available_at": "2026-09-06T00:00:00+00:00",
+      "features": [
+        0.0,
+        0.75,
+        0
+      ]
+    },
+    {
+      "design_id": "design-37",
+      "family_id": "family-9",
+      "first_available_at": "2026-09-07T00:00:00+00:00",
+      "features": [
+        0.25,
+        0.75,
+        1
+      ]
+    },
+    {
+      "design_id": "design-38",
+      "family_id": "family-9",
+      "first_available_at": "2026-09-08T00:00:00+00:00",
+      "features": [
+        0.5,
+        0.75,
+        0
+      ]
+    },
+    {
+      "design_id": "design-39",
+      "family_id": "family-9",
+      "first_available_at": "2026-09-09T00:00:00+00:00",
+      "features": [
+        0.75,
+        0.75,
+        1
+      ]
+    },
+    {
+      "design_id": "design-40",
+      "family_id": "family-10",
+      "first_available_at": "2026-09-10T00:00:00+00:00",
+      "features": [
+        0.0,
+        0.83,
+        0
+      ]
+    },
+    {
+      "design_id": "design-41",
+      "family_id": "family-10",
+      "first_available_at": "2026-09-11T00:00:00+00:00",
+      "features": [
+        0.25,
+        0.83,
+        1
+      ]
+    },
+    {
+      "design_id": "design-42",
+      "family_id": "family-10",
+      "first_available_at": "2026-09-12T00:00:00+00:00",
+      "features": [
+        0.5,
+        0.83,
+        0
+      ]
+    },
+    {
+      "design_id": "design-43",
+      "family_id": "family-10",
+      "first_available_at": "2026-09-13T00:00:00+00:00",
+      "features": [
+        0.75,
+        0.83,
+        1
+      ]
+    },
+    {
+      "design_id": "design-44",
+      "family_id": "family-11",
+      "first_available_at": "2026-09-14T00:00:00+00:00",
+      "features": [
+        0.0,
+        0.92,
+        0
+      ]
+    },
+    {
+      "design_id": "design-45",
+      "family_id": "family-11",
+      "first_available_at": "2026-09-15T00:00:00+00:00",
+      "features": [
+        0.25,
+        0.92,
+        1
+      ]
+    },
+    {
+      "design_id": "design-46",
+      "family_id": "family-11",
+      "first_available_at": "2026-09-16T00:00:00+00:00",
+      "features": [
+        0.5,
+        0.92,
+        0
+      ]
+    },
+    {
+      "design_id": "design-47",
+      "family_id": "family-11",
+      "first_available_at": "2026-09-17T00:00:00+00:00",
+      "features": [
+        0.75,
+        0.92,
+        1
+      ]
+    }
+  ],
+  "queries": [
+    {
+      "query_id": "query-0",
+      "family_id": "family-0",
+      "at": "2026-08-26T00:00:00+00:00",
+      "features": [
+        0.2,
+        0.0,
+        0.5
+      ]
+    },
+    {
+      "query_id": "query-1",
+      "family_id": "family-1",
+      "at": "2026-08-30T00:00:00+00:00",
+      "features": [
+        0.2,
+        0.08333333333333333,
+        0.5
+      ]
+    },
+    {
+      "query_id": "query-2",
+      "family_id": "family-2",
+      "at": "2026-09-03T00:00:00+00:00",
+      "features": [
+        0.2,
+        0.16666666666666666,
+        0.5
+      ]
+    },
+    {
+      "query_id": "query-3",
+      "family_id": "family-3",
+      "at": "2026-09-07T00:00:00+00:00",
+      "features": [
+        0.2,
+        0.25,
+        0.5
+      ]
+    },
+    {
+      "query_id": "query-4",
+      "family_id": "family-4",
+      "at": "2026-09-11T00:00:00+00:00",
+      "features": [
+        0.2,
+        0.3333333333333333,
+        0.5
+      ]
+    },
+    {
+      "query_id": "query-5",
+      "family_id": "family-5",
+      "at": "2026-09-15T00:00:00+00:00",
+      "features": [
+        0.2,
+        0.4166666666666667,
+        0.5
+      ]
+    },
+    {
+      "query_id": "query-6",
+      "family_id": "family-6",
+      "at": "2026-09-19T00:00:00+00:00",
+      "features": [
+        0.2,
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "query_id": "query-7",
+      "family_id": "family-7",
+      "at": "2026-09-23T00:00:00+00:00",
+      "features": [
+        0.2,
+        0.5833333333333334,
+        0.5
+      ]
+    },
+    {
+      "query_id": "query-8",
+      "family_id": "family-8",
+      "at": "2026-09-27T00:00:00+00:00",
+      "features": [
+        0.2,
+        0.6666666666666666,
+        0.5
+      ]
+    },
+    {
+      "query_id": "query-9",
+      "family_id": "family-9",
+      "at": "2026-10-01T00:00:00+00:00",
+      "features": [
+        0.2,
+        0.75,
+        0.5
+      ]
+    }
+  ],
+  "judgments": [
+    {
+      "query_id": "query-0",
+      "design_id": "design-0",
+      "relevant": true,
+      "selected_by": "old-similarity",
+      "available_at": "2026-09-15T00:00:00+00:00"
+    },
+    {
+      "query_id": "query-0",
+      "design_id": "design-1",
+      "relevant": true,
+      "selected_by": "old-similarity",
+      "available_at": "2026-09-15T00:00:00+00:00"
+    },
+    {
+      "query_id": "query-0",
+      "design_id": "design-2",
+      "relevant": true,
+      "selected_by": "old-similarity",
+      "available_at": "2026-09-15T00:00:00+00:00"
+    },
+    {
+      "query_id": "query-0",
+      "design_id": "design-3",
+      "relevant": true,
+      "selected_by": "old-similarity",
+      "available_at": "2026-09-15T00:00:00+00:00"
+    },
+    {
+      "query_id": "query-0",
+      "design_id": "design-4",
+      "relevant": true,
+      "selected_by": "old-similarity",
+      "available_at": "2026-09-15T00:00:00+00:00"
+    },
+    {
+      "query_id": "query-1",
+      "design_id": "design-4",
+      "relevant": true,
+      "selected_by": "old-similarity",
+      "available_at": "2026-09-16T00:00:00+00:00"
+    },
+    {
+      "query_id": "query-1",
+      "design_id": "design-5",
+      "relevant": true,
+      "selected_by": "old-similarity",
+      "available_at": "2026-09-16T00:00:00+00:00"
+    },
+    {
+      "query_id": "query-1",
+      "design_id": "design-6",
+      "relevant": true,
+      "selected_by": "old-similarity",
+      "available_at": "2026-09-16T00:00:00+00:00"
+    },
+    {
+      "query_id": "query-1",
+      "design_id": "design-7",
+      "relevant": true,
+      "selected_by": "old-similarity",
+      "available_at": "2026-09-16T00:00:00+00:00"
+    },
+    {
+      "query_id": "query-1",
+      "design_id": "design-8",
+      "relevant": true,
+      "selected_by": "old-similarity",
+      "available_at": "2026-09-16T00:00:00+00:00"
+    },
+    {
+      "query_id": "query-2",
+      "design_id": "design-8",
+      "relevant": true,
+      "selected_by": "old-similarity",
+      "available_at": "2026-09-17T00:00:00+00:00"
+    },
+    {
+      "query_id": "query-2",
+      "design_id": "design-9",
+      "relevant": true,
+      "selected_by": "old-similarity",
+      "available_at": "2026-09-17T00:00:00+00:00"
+    },
+    {
+      "query_id": "query-2",
+      "design_id": "design-10",
+      "relevant": true,
+      "selected_by": "old-similarity",
+      "available_at": "2026-09-17T00:00:00+00:00"
+    },
+    {
+      "query_id": "query-2",
+      "design_id": "design-11",
+      "relevant": true,
+      "selected_by": "old-similarity",
+      "available_at": "2026-09-17T00:00:00+00:00"
+    },
+    {
+      "query_id": "query-2",
+      "design_id": "design-12",
+      "relevant": true,
+      "selected_by": "old-similarity",
+      "available_at": "2026-09-17T00:00:00+00:00"
+    },
+    {
+      "query_id": "query-3",
+      "design_id": "design-12",
+      "relevant": true,
+      "selected_by": "old-similarity",
+      "available_at": "2026-09-18T00:00:00+00:00"
+    },
+    {
+      "query_id": "query-3",
+      "design_id": "design-13",
+      "relevant": true,
+      "selected_by": "old-similarity",
+      "available_at": "2026-09-18T00:00:00+00:00"
+    },
+    {
+      "query_id": "query-3",
+      "design_id": "design-14",
+      "relevant": true,
+      "selected_by": "old-similarity",
+      "available_at": "2026-09-18T00:00:00+00:00"
+    },
+    {
+      "query_id": "query-3",
+      "design_id": "design-15",
+      "relevant": true,
+      "selected_by": "old-similarity",
+      "available_at": "2026-09-18T00:00:00+00:00"
+    },
+    {
+      "query_id": "query-3",
+      "design_id": "design-16",
+      "relevant": true,
+      "selected_by": "old-similarity",
+      "available_at": "2026-09-18T00:00:00+00:00"
+    },
+    {
+      "query_id": "query-4",
+      "design_id": "design-16",
+      "relevant": true,
+      "selected_by": "old-similarity",
+      "available_at": "2026-09-19T00:00:00+00:00"
+    },
+    {
+      "query_id": "query-4",
+      "design_id": "design-17",
+      "relevant": true,
+      "selected_by": "old-similarity",
+      "available_at": "2026-09-19T00:00:00+00:00"
+    },
+    {
+      "query_id": "query-4",
+      "design_id": "design-18",
+      "relevant": true,
+      "selected_by": "old-similarity",
+      "available_at": "2026-09-19T00:00:00+00:00"
+    },
+    {
+      "query_id": "query-4",
+      "design_id": "design-19",
+      "relevant": true,
+      "selected_by": "old-similarity",
+      "available_at": "2026-09-19T00:00:00+00:00"
+    },
+    {
+      "query_id": "query-4",
+      "design_id": "design-20",
+      "relevant": true,
+      "selected_by": "old-similarity",
+      "available_at": "2026-09-19T00:00:00+00:00"
+    },
+    {
+      "query_id": "query-5",
+      "design_id": "design-20",
+      "relevant": true,
+      "selected_by": "old-similarity",
+      "available_at": "2026-09-20T00:00:00+00:00"
+    },
+    {
+      "query_id": "query-5",
+      "design_id": "design-21",
+      "relevant": true,
+      "selected_by": "old-similarity",
+      "available_at": "2026-09-20T00:00:00+00:00"
+    },
+    {
+      "query_id": "query-5",
+      "design_id": "design-22",
+      "relevant": true,
+      "selected_by": "old-similarity",
+      "available_at": "2026-09-20T00:00:00+00:00"
+    },
+    {
+      "query_id": "query-5",
+      "design_id": "design-23",
+      "relevant": true,
+      "selected_by": "old-similarity",
+      "available_at": "2026-09-20T00:00:00+00:00"
+    },
+    {
+      "query_id": "query-5",
+      "design_id": "design-24",
+      "relevant": true,
+      "selected_by": "old-similarity",
+      "available_at": "2026-09-20T00:00:00+00:00"
+    },
+    {
+      "query_id": "query-6",
+      "design_id": "design-24",
+      "relevant": true,
+      "selected_by": "old-similarity",
+      "available_at": "2026-09-21T00:00:00+00:00"
+    },
+    {
+      "query_id": "query-6",
+      "design_id": "design-25",
+      "relevant": true,
+      "selected_by": "old-similarity",
+      "available_at": "2026-09-21T00:00:00+00:00"
+    },
+    {
+      "query_id": "query-6",
+      "design_id": "design-26",
+      "relevant": true,
+      "selected_by": "old-similarity",
+      "available_at": "2026-09-21T00:00:00+00:00"
+    },
+    {
+      "query_id": "query-6",
+      "design_id": "design-27",
+      "relevant": true,
+      "selected_by": "old-similarity",
+      "available_at": "2026-09-21T00:00:00+00:00"
+    },
+    {
+      "query_id": "query-6",
+      "design_id": "design-28",
+      "relevant": true,
+      "selected_by": "old-similarity",
+      "available_at": "2026-09-21T00:00:00+00:00"
+    },
+    {
+      "query_id": "query-7",
+      "design_id": "design-28",
+      "relevant": true,
+      "selected_by": "old-similarity",
+      "available_at": "2026-09-22T00:00:00+00:00"
+    },
+    {
+      "query_id": "query-7",
+      "design_id": "design-29",
+      "relevant": true,
+      "selected_by": "old-similarity",
+      "available_at": "2026-09-22T00:00:00+00:00"
+    },
+    {
+      "query_id": "query-7",
+      "design_id": "design-30",
+      "relevant": true,
+      "selected_by": "old-similarity",
+      "available_at": "2026-09-22T00:00:00+00:00"
+    },
+    {
+      "query_id": "query-7",
+      "design_id": "design-31",
+      "relevant": true,
+      "selected_by": "old-similarity",
+      "available_at": "2026-09-22T00:00:00+00:00"
+    },
+    {
+      "query_id": "query-7",
+      "design_id": "design-32",
+      "relevant": true,
+      "selected_by": "old-similarity",
+      "available_at": "2026-09-22T00:00:00+00:00"
+    },
+    {
+      "query_id": "query-8",
+      "design_id": "design-32",
+      "relevant": true,
+      "selected_by": "old-similarity",
+      "available_at": "2026-09-23T00:00:00+00:00"
+    },
+    {
+      "query_id": "query-8",
+      "design_id": "design-33",
+      "relevant": true,
+      "selected_by": "old-similarity",
+      "available_at": "2026-09-23T00:00:00+00:00"
+    },
+    {
+      "query_id": "query-8",
+      "design_id": "design-34",
+      "relevant": true,
+      "selected_by": "old-similarity",
+      "available_at": "2026-09-23T00:00:00+00:00"
+    },
+    {
+      "query_id": "query-8",
+      "design_id": "design-35",
+      "relevant": true,
+      "selected_by": "old-similarity",
+      "available_at": "2026-09-23T00:00:00+00:00"
+    },
+    {
+      "query_id": "query-8",
+      "design_id": "design-36",
+      "relevant": true,
+      "selected_by": "old-similarity",
+      "available_at": "2026-09-23T00:00:00+00:00"
+    },
+    {
+      "query_id": "query-9",
+      "design_id": "design-36",
+      "relevant": true,
+      "selected_by": "old-similarity",
+      "available_at": "2026-09-24T00:00:00+00:00"
+    },
+    {
+      "query_id": "query-9",
+      "design_id": "design-37",
+      "relevant": true,
+      "selected_by": "old-similarity",
+      "available_at": "2026-09-24T00:00:00+00:00"
+    },
+    {
+      "query_id": "query-9",
+      "design_id": "design-38",
+      "relevant": true,
+      "selected_by": "old-similarity",
+      "available_at": "2026-09-24T00:00:00+00:00"
+    },
+    {
+      "query_id": "query-9",
+      "design_id": "design-39",
+      "relevant": true,
+      "selected_by": "old-similarity",
+      "available_at": "2026-09-24T00:00:00+00:00"
+    },
+    {
+      "query_id": "query-9",
+      "design_id": "design-40",
+      "relevant": true,
+      "selected_by": "old-similarity",
+      "available_at": "2026-09-24T00:00:00+00:00"
+    }
+  ],
+  "study": {
+    "review_budgets": [
+      1,
+      5,
+      10,
+      20
+    ],
+    "heldout_query_families": [
+      "family-8",
+      "family-9"
+    ],
+    "discovery_cutoff": "2026-09-25T00:00:00+00:00"
+  },
+  "baseline_case_id": "design_rights_chain-demo"
+}
